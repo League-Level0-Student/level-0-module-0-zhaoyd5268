@@ -36,8 +36,10 @@ rob.move(64);
 			rob.turn(170);
 				//               Move the robot the distance in the variable flameSize (again)
 			rob.move(flameSize);
+			rob.setPenColor(Color.BLUE); 
 			   // TURN RIGHT     Turn the robot 64 degrees to the right
 			rob.turn(64);
+			
 				// MOVE         Move the robot the distance in the variable baseSize
 		rob.move(baseSize);
 				//  INCREASE COUNT. Increase the count by 1
